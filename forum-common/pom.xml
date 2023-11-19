@@ -25,8 +25,8 @@
         </dependency>
         <!--ehcache支持-->
         <dependency>
-        <groupId>net.sf.ehcache</groupId>
-        <artifactId>ehcache</artifactId>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>

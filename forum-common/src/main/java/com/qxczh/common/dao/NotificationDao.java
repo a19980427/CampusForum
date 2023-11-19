@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-
 @Repository
 public interface NotificationDao extends JpaRepository<Notification, Integer> {
 
@@ -21,5 +20,4 @@ public interface NotificationDao extends JpaRepository<Notification, Integer> {
     @Modifying
     @Query("update Notification n set n.isRead = true where n.touser = ?1")
     void updateByIsRead(User user);
-
 }

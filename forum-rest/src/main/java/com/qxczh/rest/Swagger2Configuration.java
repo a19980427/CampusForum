@@ -26,7 +26,7 @@ public class Swagger2Configuration {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("常青藤 BBS 接口文档")
+                .title("WINK BBS 接口文档")
                 .contact("JiongZhu")
                 .version("1.0")
                 .build();
